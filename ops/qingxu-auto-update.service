@@ -1,0 +1,12 @@
+[Unit]
+Description=Update Qingxu web from GitHub main
+Wants=network-online.target
+After=network-online.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+EnvironmentFile=/etc/default/qingxu-auto-update
+ExecStart=/usr/bin/bash /usr/local/lib/qingxu-auto-update.sh
+TimeoutStartSec=15min
+TimeoutStopSec=2min
