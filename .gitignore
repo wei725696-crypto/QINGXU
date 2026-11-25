@@ -9,3 +9,4 @@
 __pycache__/
 backup-v01/
 preview-*.png
+.auto-deploy/

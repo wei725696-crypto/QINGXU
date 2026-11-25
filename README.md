@@ -2,6 +2,8 @@
 
 Docker 自托管交付为 0.2.1-demo，安装、启动、公网访问、配置与数据要求见 [DEPLOY.md](DEPLOY.md)。该交付保留本版演示功能，包含 Dockerfile、docker-compose.yml 和 .env.example。
 
+已发布的 Git 仓库为 https://github.com/wei725696-crypto/QINGXU 。服务器 main 分支自动更新的配置、一次性安装和验收见 [ops/README.md](ops/README.md)。
+
 按用户提供的四张参考图重做。侧栏仅五项：运行总览、灌溉控制、监测数据、告警记录、系统设置。设备运行状态保留在总览中，没有独立侧栏入口。
 
 ## 启动
