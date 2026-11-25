@@ -1,0 +1,7 @@
+Qingxu 0.2.1-demo deployment validation
+PASS JavaScript syntax
+PASS Compose YAML and configuration references (not Docker CLI validation)
+PASS Nginx syntax on Nginx 1.28.0 native Windows executable, with local paths and test ports
+PASS direct root and /qingxu/ proxy requests for HTML, JS, CSS, healthz and 404
+PASS /qingxu redirect to /qingxu/ and JavaScript/CSS Content-Type
+LIMIT Docker unavailable: container build, Compose startup and Linux amd64/arm64 runtime not tested
